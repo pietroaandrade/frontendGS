@@ -15,8 +15,9 @@
     --color-gray1: #3d4143;
     --color-gray2: #9c9d9d;
     --color-white: #f6f6f6;
-    --color-destaque1: #e7fc00;
+    --color-destaque1: #fc0000;
     --color-destaque2: #728e6f;
+    --color-red: #fc0000;
 }
 
 /* Estilizando a barra de rolagem */
@@ -267,7 +268,7 @@ a {
 .container-inicio {
     width: 100%;
     height: 100%;
-    color: var(--color-white);
+    color: var(--color-red);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,7 +324,7 @@ a {
     left: 0;
     display: block;
     border-radius: 50px;
-    background: var(--color-destaque2);
+    background: var(--color-red);
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
@@ -335,7 +336,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: var(--color-white);
+    color: var(--color-gray2);
 }
 
 .cta svg {
@@ -345,7 +346,7 @@ a {
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: var(--color-destaque2);
+    stroke: var(--color-destaque1);
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
@@ -353,7 +354,7 @@ a {
 
 .cta:hover:before {
     width: 100%;
-    background: var(--color-destaque2);
+    background: var(--color-black);
 }
 
 .cta:hover svg {
@@ -457,12 +458,12 @@ a {
 
 .headline-scroll .bold {
     font-weight: bold;
-    color: var(--color-white);
+    color: var(--color-red);
 }
 
 .headline-scroll .light {
     font-weight: lighter;
-    color: var(--color-gray2);
+    color: var(--color-red);
 }
 
 .conteudo-sobre {
@@ -474,7 +475,7 @@ a {
 }
 
 .left-sobre {
-    color: var(--color-white);
+    color: var(--color-red);
     height: 100%;
     width: 50%;
     display: flex;
@@ -582,7 +583,7 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-white);
+    color: var(--color-red);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -610,7 +611,7 @@ a {
 .box-skills {
     border: 1px solid hsla(0, 0%, 100%, 0.15);
     border-radius: 20px;
-    color: var(--color-white);
+    color: var(--color-red);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -621,7 +622,7 @@ a {
 
 .box-skills i {
     font-size: 4rem;
-    color: var(--color-white);
+    color: var(--color-red);
 }
 
 .box-skills h3 {
@@ -649,7 +650,7 @@ a {
 
 /*************** SERVIÇOS *****/
 .servicos {
-    background-color: var(--color-white);
+    background-color: var(--color-red);
     width: 100vw;
     height: 100%;
     display: flex;
@@ -659,7 +660,7 @@ a {
 }
 
 .container-servicos {
-    background-color: var(--color-white);
+    background-color: var(--color-red);
     width: 100%;
     max-width: 1400px;
     height: 100%;
@@ -762,7 +763,7 @@ a {
 
 /*************** ALGUMA FRASE AQUI  *****/
 .free-your-mind {
-    background-color: var(--color-white);
+    background-color: var(--color-red);
     width: 100vw;
     height: 100%;
     display: flex;
@@ -818,7 +819,7 @@ a {
 .portfolio {
     width: 100%;
     height: 100%;
-    color: var(--color-white);
+    color: var(--color-red);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -920,7 +921,7 @@ a {
     top: 50%;
     width: auto;
     padding: 16px;
-    color: var(--color-white);
+    color: var(--color-red);
     font-size: 2rem;
     user-select: none;
     transform: translateY(-50%);
@@ -954,7 +955,7 @@ a {
 }
 
 .conteudo-textos-case h1 {
-    color: var(--color-white);
+    color: var(--color-red);
     font-size: 6vw;
     letter-spacing: 3px;
 }
@@ -974,7 +975,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: var(--color-white);
+    background-color: var(--color-red);
     border-radius: 50px;
     color: var(--color-black);
     font-weight: bold;
@@ -989,7 +990,7 @@ a {
     padding: 2rem 0rem 3rem 0rem;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-white);
+    background-color: var(--color-red);
 }
 
 .container-contato {
@@ -1064,7 +1065,7 @@ a {
 
 .formulario-contato p {
     font-size: 1.5rem;
-    color: var(--color-gray1);
+    color: var(--color-black);
     font-weight: 500;
     line-height: 1.4;
 }
@@ -1101,7 +1102,7 @@ a {
 }
 
 .btn {
-    background-color: var(--color-destaque1);
+    background-color: var(--color-white);
     color: var(--color-black);
     font-weight: bold;
     width: 190px;
@@ -1129,7 +1130,7 @@ a {
     background-color: var(--color-black);
     width: 100%;
     padding: 3rem 1rem;
-    color: var(--color-white);
+    color: var(--color-red);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1175,13 +1176,13 @@ a {
 
 .footer-nav a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-red);
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
 .footer-nav a:hover {
-    color: var(--color-destaque1);
+    color: var(--color-white);
 }
 
 .social-column {
@@ -1197,7 +1198,7 @@ a {
 
 .social-links a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-red);
     font-size: 1.2rem;
     display: flex;
     align-items: center;
@@ -1209,7 +1210,7 @@ a {
 }
 
 .social-links a:hover {
-    color: var(--color-destaque1);
+    color: var(--color-white);
 }
 
 .credits-column {
