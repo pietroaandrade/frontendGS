@@ -1,0 +1,227 @@
+
+/*navbar*/
+@font-face {
+    font-family: gerald;
+    src: url(/font/GeraldtonRegular.otf);
+}
+@font-face {
+    font-family: gerald-bold;
+    src: url(/font/GeraldtonBold.otf);
+}
+@font-face {
+    font-family: gerald-medium;
+    src: url(/font/GeraldtonMedium.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gerald, sans-serif;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 160px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 2vw;
+    position: relative;
+}
+.navbar ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #FCF684;
+    position:absolute;
+    left: 0px;
+    bottom: -0.2em;
+    transition: 0.2s;
+}
+.navbar ul li:hover::after{
+    text-decoration: underline;
+    width: 100%;
+}
+
+
+/*hero section*/
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/flywheelhero1.webp); 
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding-left: 3em;
+    
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: gerald-bold, sans-serif;
+}
+.content p{
+    font-family: gerald, sans-serif;
+    font-size: 30px;
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: #ffffff;
+}
+button{
+    width:200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: solid #FCF684;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+}
+span{
+    background:#FCF684;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}
+/*Imagem & texto*/
+
+main {
+    
+    width: 85%;
+    margin-left: 6em;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.image-container {
+    margin-right: 40px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    
+   
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+.text {
+    flex: 2; 
+}
+/* BOTAO CONFIGS
+.text button{
+    border: solid #B77CD7;
+    color: black;
+}
+.text button:hover span{
+    width:100%;
+}
+.text button span{
+    background:#B77CD7;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.text button:hover{
+    border: #FCF684;
+
+}
+*/
+.text h1{
+    font-family: gerald-bold, sans-serif;
+    font-size: 3rem;
+
+}
+.text p{
+    font-size: 20px;
+    text-align: left;
+
+}
+
+/*banner problema*/
+
+.banner-img {
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url(images/welding.avif); 
+    background-size: cover;
+    background-position: center;
+}
+.content-img{
+    width:100%;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    color: #fff;
+    padding-left: 3em;
+    
+}
+.content-img h1{
+    font-size: 48px;
+    font-family: gerald-bold, sans-serif;
+    margin-bottom: 1rem;
+}
+.content-img p{
+    font-family: gerald, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: #ffffff;
+}
