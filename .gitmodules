@@ -1,0 +1,3 @@
+[submodule "coisas"]
+	path = coisas
+	url = https://github.com/IcaroHenriqueDeSouza/landing-page-pre.git
