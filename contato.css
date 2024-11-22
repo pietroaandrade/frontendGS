@@ -34,11 +34,10 @@
 }
 
 .titulo-contato h1 {
-    color: var(--color-black);
+    background-color: ;
     width: 50%;
     font-size: 8vw;
-    font-weight: lighter;
-    font-family: var(--font-grande);
+    font-weight: lighter;    
 }
 
 .descricao-contato {
