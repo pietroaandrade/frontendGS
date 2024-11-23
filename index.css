@@ -519,8 +519,12 @@ textarea{
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    background-color: #151515;
 }
-
+.logofooter{
+    width: 30px;
+    height: 30px;
+}
 .footer-link {
     text-decoration: none;
 }
